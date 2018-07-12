@@ -1,1 +1,3 @@
-# modeling_blogs
+# Topic modeling the Blog Authorship corpus
+
+
