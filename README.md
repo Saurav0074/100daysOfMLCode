@@ -6,8 +6,8 @@ The [blog authorship corpus](http://u.cs.biu.ac.il/~koppel/BlogCorpus.htm) consi
 
 I had previously parsed out those containing over 500 words, which gave me a total of 2,49,844 male blogs and 2,54,879 female blogs. This task leverages two algorithms to observe the relevant topics that prevailing in the blogs of both the genders:
 
-* `[lda.py](https://github.com/Saurav0074/100daysOfMLCode/blob/master/blog_topic_modeling/code/lda.py)` uses the gensim and mallet's implementation of Latent Dirichlet Allocation (LDA) along with the code to for the optimal number of topics on gensim's classical LDA based upon their coherence scores.
-* `[nmf.py](https://github.com/Saurav0074/100daysOfMLCode/blob/master/blog_topic_modeling/code/nmf.py)` uses scikit-learn's implementation of the Non-negative matrix factorization (NMF) alogirthm. 
+* [lda.py](https://github.com/Saurav0074/100daysOfMLCode/blob/master/blog_topic_modeling/code/lda.py) uses the gensim and mallet's implementation of Latent Dirichlet Allocation (LDA) along with the code to for the optimal number of topics on gensim's classical LDA based upon their coherence scores.
+* [nmf.py](https://github.com/Saurav0074/100daysOfMLCode/blob/master/blog_topic_modeling/code/nmf.py) uses scikit-learn's implementation of the Non-negative matrix factorization (NMF) alogirthm. 
 
 
 
