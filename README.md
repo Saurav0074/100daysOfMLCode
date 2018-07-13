@@ -11,7 +11,7 @@ I parsed out only those spanning over 500 words giving me a total of 2,49,844 ma
 * [lda.py](https://github.com/Saurav0074/100daysOfMLCode/blob/master/blog_topic_modeling/code/lda.py) uses the gensim and mallet's implementation of Latent Dirichlet Allocation (LDA) [1] along with finding the optimal number of topics on gensim's classical LDA based upon their coherence scores.
 * [nmf.py](https://github.com/Saurav0074/100daysOfMLCode/blob/master/blog_topic_modeling/code/nmf.py) uses the scikit-learn's implementation of Non-negative matrix factorization (NMF) alogirthm [2]. 
 
-Here is a plot showing that the coherence score is maximum for 60 topics on the female blog corpus:
+Here is a plot showing that the coherence score attains maximum value for 60 topics on the female blog corpus:
 ![Optimal no. of topics](/blog_topic_modeling/outputs/female_blogs.png)
 
 Below are few interesting results showing top 10 words for each such topic on the blog authorship corpus, others can be found in [blog_topics.txt](https://github.com/Saurav0074/100daysOfMLCode/blob/master/blog_topic_modeling/outputs/blog_topics.txt). The text file also contains the topics extracted from the blog corpus introduced by [3]. However, their smaller corpora (~3000 blogs) do not provide much promising insights.
