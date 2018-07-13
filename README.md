@@ -26,19 +26,26 @@ The float values indicate the contribution of each word to the overall topic.
  '0.016*"love" + 0.014*"know" + 0.013*"life" + 0.011*"would" + 0.011*"time" + '
  '0.010*"make" + 0.009*"feel" + 0.009*"thing" + 0.009*"people" + 0.008*"think"')
  `
+ 
  `
 (1,
  '0.009*"ogtahay" + 0.009*"king_arthur" + 0.008*"fucken_hell" + '
  '0.007*"rosepedal" + 0.005*"ayn" + 0.004*"love_boink" + 0.004*"merlin" + '
  '0.004*"iyo" + 0.004*"yung" + 0.004*"aan"')
-(2,
+`
+
+`(2,
  '0.024*"get" + 0.023*"go" + 0.013*"day" + 0.011*"work" + 0.011*"time" + '
  '0.008*"home" + 0.008*"female" + 0.007*"good" + 0.007*"take" + 0.007*"back"')
-(3,
+`
+
+`(3,
  '0.041*"urllink" + 0.015*"read" + 0.013*"book" + 0.013*"female" + '
  '0.011*"blog" + 0.010*"write" + 0.010*"post" + 0.008*"com" + 0.006*"page" + '
  '0.006*"site"')
-(4,
+`
+
+`(4,
  '0.087*"jumper" + 0.022*"pm" + 0.011*"coolgal" + 0.009*"lethalithuanian" + '
  '0.007*"ritzbtz" + 0.006*"lol" + 0.005*"shev_ev" + 0.005*"yea" + '
  '0.005*"fabityfabfab" + 0.005*"dayna"')
@@ -49,18 +56,26 @@ The float values indicate the contribution of each word to the overall topic.
 `(0,
  '0.027*"go" + 0.023*"get" + 0.009*"girl" + 0.009*"eat" + 0.008*"say" + '
  '0.007*"home" + 0.007*"house" + 0.006*"night" + 0.006*"guy" + 0.006*"fuck"')
- (2,
+ `
+ 
+ `(2,
  '0.012*"say" + 0.010*"war" + 0.009*"bush" + 0.009*"american" + '
  '0.007*"urllink" + 0.007*"president" + 0.007*"iraq" + 0.007*"country" + '
  '0.006*"would" + 0.006*"government"')
- (3,
+ `
+ 
+ `(3,
  '0.019*"game" + 0.019*"go" + 0.013*"play" + 0.009*"team" + 0.008*"den" + '
  '0.007*"get" + 0.007*"today" + 0.006*"tat" + 0.006*"male" + 0.006*"match"')
-(7,
+`
+
+`(7,
  '0.013*"nickmac_pm" + 0.010*"ermagetton_pm" + 0.009*"nickmac" + '
  '0.005*"johnnydr" + 0.005*"sbristowsd" + 0.005*"samuraipanda" + 0.005*"ltt" + '
  '0.004*"eriol" + 0.004*"loren" + 0.003*"tnod_etov"')
- (9,
+ `
+ 
+ `(9,
  '0.108*"urllink" + 0.023*"male" + 0.021*"blog" + 0.018*"post" + 0.015*"com" + '
  '0.014*"site" + 0.010*"link" + 0.010*"read" + 0.008*"http_www" + 0.008*"page"')
 `
@@ -70,13 +85,21 @@ The float values indicate the contribution of each word to the overall topic.
 
 `Topic 0:
 pron hand mother mom family eye sister mind parent name
-Topic 1:
+`
+
+`Topic 1:
 urllink female http bring com www link bear site page
-Topic 2:
+`
+
+`Topic 2:
 go home today fun back come house mom pron tomorrow
-Topic 12:
+`
+
+`Topic 12:
 say ask tell word mean something anything hear nothing give
-Topic 13:
+`
+
+`Topic 13:
 night last sleep dream morning wake bed hour week saturday
 `
 
@@ -84,13 +107,21 @@ night last sleep dream morning wake bed hour week saturday
 
 `Topic 0:
 pron eye mind name hand mom dad parent face brother
-Topic 1:
+`
+
+`Topic 1:
 urllink article link male read news check picture find photo
-Topic 3:
+`
+
+`Topic 3:
 bush kerry vote president republican election campaign george party administration
-Topic 6:
+`
+
+`Topic 6:
 game play team win player score lose ball football hit
-Topic 10:
+`
+
+`Topic 10:
 comment full post male urllink leave make thank box add
 `
 
