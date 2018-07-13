@@ -15,7 +15,9 @@ Here is a plot showing that the coherence score is maximum for 60 topics on the 
 Below are few interesting results showing top 10 words for each such topic, others can be found in [blog_topics.txt](https://github.com/Saurav0074/100daysOfMLCode/blob/master/blog_topic_modeling/outputs/blog_topics.txt):
 
 ### 1.  Using LDA: 
+
 The float values indicate the contribution of each word to the overall topic.
+
 **Female blogs:**
 
 `(0,
