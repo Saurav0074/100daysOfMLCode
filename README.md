@@ -12,7 +12,7 @@ I parsed out only those spanning over 500 words giving me a total of 2,49,844 ma
 Here is a plot showing that the coherence score is maximum for 60 topics on the female blog corpus:
 ![Optimal no. of topics](/blog_topic_modeling/outputs/female_blogs.png)
 
-Here are the top 5 topics for either of the genders:
+Here are 5 of such topics for either of the genders, others can be found in [blog_topics.txt](https://github.com/Saurav0074/100daysOfMLCode/blob/master/blog_topic_modeling/outputs/blog_topics.txt):
 
 ### 1.  Using LDA:
 **Female blogs:**
@@ -36,3 +36,4 @@ Here are the top 5 topics for either of the genders:
  '0.007*"ritzbtz" + 0.006*"lol" + 0.005*"shev_ev" + 0.005*"yea" + '
  '0.005*"fabityfabfab" + 0.005*"dayna"')
 `
+**Male blogs:**
