@@ -1,0 +1,376 @@
+1512 female and 1588 male blogs
+
+1. for females with gensim lda
+(0,
+ '0.005*"love" + 0.005*"go" + 0.005*"not" + 0.005*"get" + 0.005*"day" + '
+ '0.005*"time" + 0.005*"make" + 0.004*"new" + 0.004*"good" + 0.004*"see"')
+(1,
+ '0.008*"et" + 0.006*"vous" + 0.004*"dan" + 0.004*"pour" + 0.004*"medical" + '
+ '0.004*"la" + 0.003*"pas" + 0.003*"votre" + 0.003*"recette" + 0.003*"mai"')
+(2,
+ '0.010*"not" + 0.006*"know" + 0.006*"do" + 0.006*"make" + 0.005*"get" + '
+ '0.005*"be" + 0.005*"time" + 0.005*"would" + 0.005*"say" + 0.005*"go"')
+(3,
+ '0.009*"make" + 0.004*"say" + 0.004*"people" + 0.004*"cup" + 0.004*"recipe" + '
+ '0.004*"add" + 0.004*"cook" + 0.003*"time" + 0.003*"darfur" + 0.003*"minute"')
+(4,
+ '0.016*"not" + 0.012*"get" + 0.011*"be" + 0.011*"go" + 0.009*"do" + '
+ '0.009*"time" + 0.008*"make" + 0.008*"know" + 0.008*"would" + 0.007*"good"')
+(5,
+ '0.024*"nbsp" + 0.007*"would" + 0.006*"get" + 0.005*"not" + 0.005*"make" + '
+ '0.004*"time" + 0.004*"say" + 0.004*"see" + 0.004*"go" + 0.004*"people"')
+(6,
+ '0.013*"book" + 0.007*"write" + 0.007*"not" + 0.006*"time" + 0.006*"read" + '
+ '0.005*"get" + 0.005*"would" + 0.005*"do" + 0.005*"go" + 0.004*"make"')
+(7,
+ '0.007*"get" + 0.005*"day" + 0.005*"say" + 0.004*"post" + 0.004*"time" + '
+ '0.004*"not" + 0.004*"good" + 0.004*"year" + 0.004*"make" + 0.004*"go"')
+(8,
+ '0.010*"be" + 0.010*"not" + 0.007*"work" + 0.006*"make" + 0.005*"get" + '
+ '0.005*"think" + 0.005*"good" + 0.005*"have" + 0.005*"do" + 0.005*"s"')
+(9,
+ '0.008*"not" + 0.005*"be" + 0.005*"good" + 0.005*"go" + 0.004*"do" + '
+ '0.004*"time" + 0.004*"make" + 0.004*"friend" + 0.004*"take" + 0.004*"raw"')
+
+ 2. male blogs using before model
+ (0,
+ '0.006*"make" + 0.004*"time" + 0.004*"not" + 0.004*"take" + 0.004*"game" + '
+ '0.004*"new" + 0.004*"get" + 0.004*"may" + 0.003*"say" + 0.003*"company"')
+(1,
+ '0.005*"would" + 0.004*"make" + 0.004*"good" + 0.004*"get" + 0.003*"nbsp" + '
+ '0.003*"take" + 0.003*"see" + 0.003*"go" + 0.003*"book" + 0.003*"new"')
+(2,
+ '0.009*"not" + 0.008*"get" + 0.008*"go" + 0.006*"time" + 0.006*"be" + '
+ '0.005*"do" + 0.005*"good" + 0.005*"day" + 0.005*"would" + 0.005*"make"')
+(3,
+ '0.009*"not" + 0.006*"be" + 0.005*"do" + 0.005*"would" + 0.005*"make" + '
+ '0.005*"get" + 0.004*"say" + 0.004*"good" + 0.004*"also" + 0.003*"want"')
+(4,
+ '0.004*"recipe" + 0.004*"book" + 0.003*"big" + 0.003*"make" + 0.003*"que" + '
+ '0.003*"not" + 0.003*"say" + 0.003*"good" + 0.003*"kombu" + 0.003*"get"')
+(5,
+ '0.005*"poem" + 0.005*"time" + 0.004*"good" + 0.004*"get" + 0.004*"show" + '
+ '0.004*"not" + 0.004*"see" + 0.004*"go" + 0.004*"be" + 0.004*"would"')
+(6,
+ '0.006*"not" + 0.006*"get" + 0.004*"go" + 0.004*"be" + 0.004*"make" + '
+ '0.004*"grow" + 0.004*"garden" + 0.004*"good" + 0.003*"ironpython" + '
+ '0.003*"come"')
+(7,
+ '0.026*"nbsp" + 0.010*"therizinosaur" + 0.005*"ichthyosaur" + 0.005*"blog" + '
+ '0.005*"time" + 0.004*"nbsp_nbsp" + 0.004*"look" + 0.004*"not" + 0.004*"also" '
+ '+ 0.003*"therizinosaurus"')
+(8,
+ '0.013*"not" + 0.010*"be" + 0.009*"get" + 0.008*"do" + 0.008*"go" + '
+ '0.007*"say" + 0.007*"time" + 0.007*"good" + 0.007*"make" + 0.007*"would"')
+(9,
+ '0.011*"not" + 0.008*"get" + 0.007*"do" + 0.006*"be" + 0.006*"would" + '
+ '0.006*"go" + 0.006*"time" + 0.005*"year" + 0.004*"have" + 0.004*"make"')
+
+3. Now train gensim lda on male corpus
+(0,
+ '0.006*"company" + 0.005*"cook" + 0.005*"bail" + 0.005*"court" + '
+ '0.005*"accuse" + 0.004*"make" + 0.004*"may" + 0.004*"law" + 0.004*"case" + '
+ '0.004*"say"')
+(1,
+ '0.006*"would" + 0.005*"make" + 0.004*"good" + 0.004*"israel" + 0.004*"time" '
+ '+ 0.003*"new" + 0.003*"go" + 0.003*"take" + 0.003*"state" + 0.003*"look"')
+(2,
+ '0.009*"say" + 0.007*"be" + 0.006*"would" + 0.005*"time" + 0.005*"go" + '
+ '0.005*"not" + 0.005*"make" + 0.005*"thank" + 0.005*"blog" + 0.004*"get"')
+(3,
+ '0.012*"not" + 0.008*"do" + 0.007*"be" + 0.006*"would" + 0.006*"make" + '
+ '0.005*"get" + 0.005*"work" + 0.005*"have" + 0.004*"thing" + 0.004*"see"')
+(4,
+ '0.008*"game" + 0.008*"color" + 0.006*"player" + 0.005*"painting" + '
+ '0.005*"get" + 0.004*"card" + 0.004*"good" + 0.004*"indian" + 0.003*"make" + '
+ '0.003*"may"')
+(5,
+ '0.008*"not" + 0.006*"get" + 0.006*"say" + 0.006*"good" + 0.006*"time" + '
+ '0.005*"make" + 0.005*"would" + 0.005*"do" + 0.005*"be" + 0.004*"go"')
+(6,
+ '0.007*"not" + 0.005*"make" + 0.005*"book" + 0.005*"good" + 0.005*"be" + '
+ '0.004*"get" + 0.004*"do" + 0.004*"go" + 0.003*"would" + 0.003*"year"')
+(7,
+ '0.008*"poem" + 0.005*"book" + 0.004*"make" + 0.004*"good" + 0.004*"see" + '
+ '0.004*"would" + 0.003*"time" + 0.003*"read" + 0.003*"way" + 0.003*"go"')
+(8,
+ '0.008*"not" + 0.008*"nbsp" + 0.006*"get" + 0.005*"time" + 0.005*"see" + '
+ '0.005*"would" + 0.005*"make" + 0.005*"be" + 0.005*"do" + 0.005*"go"')
+(9,
+ '0.013*"not" + 0.012*"get" + 0.011*"go" + 0.009*"be" + 0.008*"do" + '
+ '0.008*"time" + 0.007*"think" + 0.007*"know" + 0.006*"good" + 0.006*"would"')
+
+ 4. Use above model on female corpus
+ (0,
+ '0.012*"not" + 0.011*"get" + 0.009*"time" + 0.009*"go" + 0.009*"be" + '
+ '0.007*"would" + 0.007*"do" + 0.007*"make" + 0.007*"day" + 0.006*"know"')
+(1,
+ '0.017*"not" + 0.011*"do" + 0.010*"go" + 0.010*"be" + 0.008*"get" + '
+ '0.007*"think" + 0.007*"know" + 0.006*"good" + 0.006*"want" + 0.005*"say"')
+(2,
+ '0.005*"people" + 0.005*"say" + 0.005*"year" + 0.004*"not" + 0.004*"make" + '
+ '0.004*"world" + 0.003*"take" + 0.003*"story" + 0.003*"woman" + 0.003*"good"')
+(3,
+ '0.006*"et" + 0.006*"vous" + 0.004*"netflix" + 0.003*"bubby" + 0.003*"nbsp" + '
+ '0.003*"dan" + 0.003*"poll" + 0.003*"pour" + 0.003*"la" + 0.003*"film"')
+(4,
+ '0.007*"not" + 0.005*"go" + 0.005*"be" + 0.004*"raw" + 0.004*"get" + '
+ '0.004*"garden" + 0.003*"would" + 0.003*"make" + 0.003*"do" + 0.003*"take"')
+(5,
+ '0.013*"not" + 0.008*"be" + 0.008*"get" + 0.007*"do" + 0.007*"love" + '
+ '0.007*"go" + 0.006*"good" + 0.006*"know" + 0.006*"say" + 0.005*"make"')
+(6,
+ '0.006*"make" + 0.004*"also" + 0.004*"work" + 0.004*"drawing" + 0.003*"hair" '
+ '+ 0.003*"may" + 0.003*"take" + 0.003*"new" + 0.003*"time" + 0.003*"see"')
+(7,
+ '0.012*"make" + 0.005*"cook" + 0.005*"recipe" + 0.005*"time" + 0.005*"cup" + '
+ '0.004*"add" + 0.004*"minute" + 0.003*"not" + 0.003*"day" + 0.003*"well"')
+(8,
+ '0.006*"make" + 0.004*"people" + 0.004*"time" + 0.004*"not" + 0.004*"say" + '
+ '0.004*"would" + 0.003*"year" + 0.003*"know" + 0.003*"good" + 0.003*"even"')
+(9,
+ '0.012*"not" + 0.009*"get" + 0.008*"be" + 0.008*"go" + 0.008*"would" + '
+ '0.008*"make" + 0.007*"do" + 0.007*"know" + 0.006*"time" + 0.006*"good"')
+
+ ################## ON blog authorship corpus #################
+ contains 2,49,844 male blogs :: choose 50000
+contains 2,54,879 female blogs
+
+ 1. train gensim on male
+ (0,
+ '0.027*"go" + 0.023*"get" + 0.009*"girl" + 0.009*"eat" + 0.008*"say" + '
+ '0.007*"home" + 0.007*"house" + 0.006*"night" + 0.006*"guy" + 0.006*"fuck"')
+(1,
+ '0.007*"look" + 0.007*"back" + 0.006*"see" + 0.006*"take" + 0.006*"time" + '
+ '0.005*"would" + 0.005*"could" + 0.005*"place" + 0.005*"eye" + 0.004*"head"')
+(2,
+ '0.012*"say" + 0.010*"war" + 0.009*"bush" + 0.009*"american" + '
+ '0.007*"urllink" + 0.007*"president" + 0.007*"iraq" + 0.007*"country" + '
+ '0.006*"would" + 0.006*"government"')
+(3,
+ '0.019*"game" + 0.019*"go" + 0.013*"play" + 0.009*"team" + 0.008*"den" + '
+ '0.007*"get" + 0.007*"today" + 0.006*"tat" + 0.006*"male" + 0.006*"match"')
+(4,
+ '0.033*"not" + 0.024*"be" + 0.021*"get" + 0.020*"go" + 0.019*"do" + '
+ '0.013*"know" + 0.012*"think" + 0.011*"s" + 0.011*"time" + 0.010*"good"')
+(5,
+ '0.010*"work" + 0.006*"new" + 0.006*"use" + 0.005*"also" + 0.005*"company" + '
+ '0.005*"job" + 0.005*"pay" + 0.005*"make" + 0.005*"need" + 0.004*"male"')
+(6,
+ '0.010*"life" + 0.009*"people" + 0.007*"would" + 0.007*"world" + 0.006*"man" '
+ '+ 0.006*"make" + 0.005*"love" + 0.005*"god" + 0.005*"know" + 0.005*"say"')
+(7,
+ '0.013*"nickmac_pm" + 0.010*"ermagetton_pm" + 0.009*"nickmac" + '
+ '0.005*"johnnydr" + 0.005*"sbristowsd" + 0.005*"samuraipanda" + 0.005*"ltt" + '
+ '0.004*"eriol" + 0.004*"loren" + 0.003*"tnod_etov"')
+(8,
+ '0.016*"movie" + 0.014*"song" + 0.011*"show" + 0.011*"good" + 0.011*"music" + '
+ '0.009*"play" + 0.009*"film" + 0.007*"band" + 0.006*"see" + 0.006*"great"')
+(9,
+ '0.108*"urllink" + 0.023*"male" + 0.021*"blog" + 0.018*"post" + 0.015*"com" + '
+ '0.014*"site" + 0.010*"link" + 0.010*"read" + 0.008*"http_www" + 0.008*"page"')
+
+ 2. test on female
+
+ (0,
+ '0.016*"love" + 0.014*"know" + 0.013*"life" + 0.011*"would" + 0.011*"time" + '
+ '0.010*"make" + 0.009*"feel" + 0.009*"thing" + 0.009*"people" + 0.008*"think"')
+(1,
+ '0.009*"ogtahay" + 0.009*"king_arthur" + 0.008*"fucken_hell" + '
+ '0.007*"rosepedal" + 0.005*"ayn" + 0.004*"love_boink" + 0.004*"merlin" + '
+ '0.004*"iyo" + 0.004*"yung" + 0.004*"aan"')
+(2,
+ '0.024*"get" + 0.023*"go" + 0.013*"day" + 0.011*"work" + 0.011*"time" + '
+ '0.008*"home" + 0.008*"female" + 0.007*"good" + 0.007*"take" + 0.007*"back"')
+(3,
+ '0.041*"urllink" + 0.015*"read" + 0.013*"book" + 0.013*"female" + '
+ '0.011*"blog" + 0.010*"write" + 0.010*"post" + 0.008*"com" + 0.006*"page" + '
+ '0.006*"site"')
+(4,
+ '0.087*"jumper" + 0.022*"pm" + 0.011*"coolgal" + 0.009*"lethalithuanian" + '
+ '0.007*"ritzbtz" + 0.006*"lol" + 0.005*"shev_ev" + 0.005*"yea" + '
+ '0.005*"fabityfabfab" + 0.005*"dayna"')
+(5,
+ '0.009*"movie" + 0.009*"play" + 0.008*"watch" + 0.008*"female" + 0.008*"see" '
+ '+ 0.008*"show" + 0.007*"song" + 0.007*"good" + 0.006*"music" + 0.006*"great"')
+(6,
+ '0.012*"look" + 0.012*"say" + 0.007*"come" + 0.007*"hand" + 0.007*"eye" + '
+ '0.006*"see" + 0.006*"take" + 0.006*"tell" + 0.006*"walk" + 0.005*"back"')
+(7,
+ '0.011*"say" + 0.009*"people" + 0.006*"war" + 0.005*"country" + '
+ '0.005*"american" + 0.005*"year" + 0.005*"would" + 0.005*"state" + '
+ '0.004*"bush" + 0.004*"vote"')
+(8,
+ '0.045*"not" + 0.037*"be" + 0.026*"do" + 0.025*"go" + 0.023*"get" + 0.017*"s" '
+ '+ 0.015*"know" + 0.014*"think" + 0.013*"really" + 0.011*"say"')
+(9,
+ '0.023*"go" + 0.012*"den" + 0.008*"coz" + 0.008*"ppl" + 0.008*"wat" + '
+ '0.007*"haha" + 0.006*"hehe" + 0.006*"female" + 0.005*"today" + 0.004*"abt"')
+
+ ############### using NMF ###################
+
+1. using female corpus
+ Topic 0:
+pron hand mother mom family eye sister mind parent name
+Topic 1:
+urllink female http bring com www link bear site page
+Topic 2:
+go home today fun back come house mom pron tomorrow
+Topic 3:
+thing happen whole way make change try bad always little
+Topic 4:
+jumper lethalithuanian coolgal yea omg wat female hot haha pm
+Topic 5:
+love heart much always fall ever true hate kiss pron
+Topic 6:
+see miss look ill ever wait could female show face
+Topic 7:
+look take back make come walk little pron could eat
+Topic 8:
+blog post write female link blogger site com ill read
+Topic 9:
+year old new ago child family month last first age
+Topic 10:
+comment photo camera judge shot picture great image shoot color
+Topic 11:
+get pron ill stuff try back well today start much
+Topic 12:
+say ask tell word mean something anything hear nothing give
+Topic 13:
+night last sleep dream morning wake bed hour week saturday
+Topic 14:
+would could like wish rather never probably tell maybe able
+Topic 15:
+know let even never tell someone mean right maybe everything
+Topic 16:
+movie watch film show tv scene character story funny rent
+Topic 17:
+day today tomorrow week female happy ill spend hour yesterday
+Topic 18:
+people many world person war bush country american everyone make
+Topic 19:
+really nice lot like cool actually much mean stuff guess
+Topic 20:
+book read write story page finish character female harry writing
+Topic 21:
+guy friend girl meet talk date pron fun like hang
+Topic 22:
+want tell make save someone something everything anymore give anything
+Topic 23:
+good pretty make bad much great hope well female news
+Topic 24:
+time first spend long week much waste next pron last
+Topic 25:
+think something maybe try actually mean ill much way sometimes
+Topic 26:
+may female also well able take case however happen sure
+Topic 27:
+song music listen sing band album cd hear play rock
+Topic 28:
+den dat wat haha coz ppl eat sad study dunno
+Topic 29:
+man woman sex young old child female gay date wife
+Topic 30:
+lol omg ppl yea soo coz fun wanna funny wat
+Topic 31:
+feel make feeling bad still hurt pain sick much cry
+Topic 32:
+work job week pay hour today office new pron boss
+Topic 33:
+need help money female take someone give find move job
+Topic 34:
+school class teacher student high study test grade pron math
+Topic 35:
+call phone tell talk ask number name come mom message
+Topic 36:
+game play win team fun watch ball lose first female
+Topic 37:
+car drive road dad mom home driver pron park house
+Topic 38:
+fuck shit fucking hate bitch ass damn hell stupid suck
+Topic 39:
+life god live pron never world dream give make heart
+
+
+2. using male corpus
+
+Topic 0:
+pron eye mind name hand mom dad parent face brother
+Topic 1:
+urllink article link male read news check picture find photo
+Topic 2:
+get ill pron need back well start stuff try thing
+Topic 3:
+bush kerry vote president republican election campaign george party administration
+Topic 4:
+know think thing feel something maybe make never tell try
+Topic 5:
+post ill picture male blogger also first week soon title
+Topic 6:
+game play team win player score lose ball football hit
+Topic 7:
+girl guy man woman gay boy sex old think name
+Topic 8:
+movie film see watch character scene story star dvd great
+Topic 9:
+school class teacher student high test study math exam grade
+Topic 10:
+comment full post male urllink leave make thank box add
+Topic 11:
+song music band album listen play rock guitar sound sing
+Topic 12:
+go home pron fun today back house eat come see
+Topic 13:
+love heart feel never always cry fall hate hurt baby
+Topic 14:
+book read write story page finish title character comic find
+Topic 15:
+people many person everyone group make lot think thing hate
+Topic 16:
+say ask tell word hear talk come mean anything reply
+Topic 17:
+would think could like probably rather make idea ever give
+Topic 18:
+friend pron meet talk hang family someone relationship life party
+Topic 19:
+blog write link blogger read pron update entry may start
+Topic 20:
+work week need weekend hour computer project office hard start
+Topic 21:
+good thing bad pretty make well much great win stuff
+Topic 22:
+com site www http web link page website email net
+Topic 23:
+sleep hour wake morning bed tired dream feel home eat
+Topic 24:
+day today tomorrow week pron happy yesterday spend ill bad
+Topic 25:
+life god live world man pron church christian believe christ
+Topic 26:
+fuck shit fucking ass damn hell hate bitch stupid suck
+Topic 27:
+night last week weekend saturday tonight friday party sunday drink
+Topic 28:
+time long spend first much many next waste last week
+Topic 29:
+really cool think nice much fun pretty talk stuff like
+Topic 30:
+new york buy change city release old version feature move
+Topic 31:
+want see give need someone tell make something ask whatev
+Topic 32:
+male read la today thank eat come dear full die
+Topic 33:
+show watch tv see season news match network video series
+Topic 34:
+look take see back car come walk drive place run
+Topic 35:
+war iraq american state world government country iraqi america nation
+Topic 36:
+pm hour dinner everyone talk home june camp saturday band
+Topic 37:
+call phone tell talk number ask cell name answer message
+Topic 38:
+job pay company money search interview month look tax help
+Topic 39:
+year old ago last team month first next past win
