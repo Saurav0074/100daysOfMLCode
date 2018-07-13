@@ -125,7 +125,7 @@ game play team win player score lose ball football hit
 comment full post male urllink leave make thank box add
 `
 
-A closer analysis may reveal trends similar to that mentioned in [3], i.e. female topics show more frequent occurrences of emotionally intensive adverbs and ajectives, acronyms, etc. while male topics are more biased towards politics, games and religion. Just to mention, these are all generic analysis done for fun.
+A closer analysis reveals trend somewhat similar to that mentioned in [3], i.e. female topics show more frequent occurrences of emotionally intensive adverbs and ajectives, acronyms, etc. while male topics talk more of politics, games and religion. 
 
 The words in each topic can be analysed individually as well to infer what they are actually taking about. For example, `(game play team win player score lose ball football hit)` clearly implies a football match while `(urllink article link male read news check picture find photo)` could be about a website that posts news.
 
