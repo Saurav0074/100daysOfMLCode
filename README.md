@@ -25,7 +25,8 @@ The float values indicate the contribution of each word to the overall topic.
 `(0,
  '0.016*"love" + 0.014*"know" + 0.013*"life" + 0.011*"would" + 0.011*"time" + '
  '0.010*"make" + 0.009*"feel" + 0.009*"thing" + 0.009*"people" + 0.008*"think"')
- 
+ `
+ `
 (1,
  '0.009*"ogtahay" + 0.009*"king_arthur" + 0.008*"fucken_hell" + '
  '0.007*"rosepedal" + 0.005*"ayn" + 0.004*"love_boink" + 0.004*"merlin" + '
