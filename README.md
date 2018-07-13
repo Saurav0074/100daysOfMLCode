@@ -12,9 +12,10 @@ I parsed out only those spanning over 500 words giving me a total of 2,49,844 ma
 Here is a plot showing that the coherence score is maximum for 60 topics on the female blog corpus:
 ![Optimal no. of topics](/blog_topic_modeling/outputs/female_blogs.png)
 
-Here are 5 of such topics for either of the genders, others can be found in [blog_topics.txt](https://github.com/Saurav0074/100daysOfMLCode/blob/master/blog_topic_modeling/outputs/blog_topics.txt):
+Below are few interesting results showing top 10 words for each such topic, others can be found in [blog_topics.txt](https://github.com/Saurav0074/100daysOfMLCode/blob/master/blog_topic_modeling/outputs/blog_topics.txt):
 
-### 1.  Using LDA:
+### 1.  Using LDA: 
+The float values indicate the contribution of each word to the overall topic.
 **Female blogs:**
 
 `(0,
@@ -37,3 +38,52 @@ Here are 5 of such topics for either of the genders, others can be found in [blo
  '0.005*"fabityfabfab" + 0.005*"dayna"')
 `
 **Male blogs:**
+`(0,
+ '0.027*"go" + 0.023*"get" + 0.009*"girl" + 0.009*"eat" + 0.008*"say" + '
+ '0.007*"home" + 0.007*"house" + 0.006*"night" + 0.006*"guy" + 0.006*"fuck"')
+ (2,
+ '0.012*"say" + 0.010*"war" + 0.009*"bush" + 0.009*"american" + '
+ '0.007*"urllink" + 0.007*"president" + 0.007*"iraq" + 0.007*"country" + '
+ '0.006*"would" + 0.006*"government"')
+ (3,
+ '0.019*"game" + 0.019*"go" + 0.013*"play" + 0.009*"team" + 0.008*"den" + '
+ '0.007*"get" + 0.007*"today" + 0.006*"tat" + 0.006*"male" + 0.006*"match"')
+(7,
+ '0.013*"nickmac_pm" + 0.010*"ermagetton_pm" + 0.009*"nickmac" + '
+ '0.005*"johnnydr" + 0.005*"sbristowsd" + 0.005*"samuraipanda" + 0.005*"ltt" + '
+ '0.004*"eriol" + 0.004*"loren" + 0.003*"tnod_etov"')
+ (9,
+ '0.108*"urllink" + 0.023*"male" + 0.021*"blog" + 0.018*"post" + 0.015*"com" + '
+ '0.014*"site" + 0.010*"link" + 0.010*"read" + 0.008*"http_www" + 0.008*"page"')
+`
+### 2. Using NMF:
+**Female blogs**
+`Topic 0:
+pron hand mother mom family eye sister mind parent name
+Topic 1:
+urllink female http bring com www link bear site page
+Topic 2:
+go home today fun back come house mom pron tomorrow
+Topic 12:
+say ask tell word mean something anything hear nothing give
+Topic 13:
+night last sleep dream morning wake bed hour week saturday
+`
+**Male blogs**
+`Topic 0:
+pron eye mind name hand mom dad parent face brother
+Topic 1:
+urllink article link male read news check picture find photo
+Topic 3:
+bush kerry vote president republican election campaign george party administration
+Topic 6:
+game play team win player score lose ball football hit
+Topic 10:
+comment full post male urllink leave make thank box add
+`
+A closer analysis may reveal trends similar to that mentioned in [1], i.e. female topics show more frequent occurrences of emotionally intensive adverbs and ajectives, acronyms, etc. while male topics are more biased towards politics, games and religion. Just to mention, these are all generic analysis done for fun.
+
+Further, we can analyse the words of each topic individually to infer what they are actually taking about. For example, `(game play team win player score lose ball football hit)` clearly indicates about a football match while `(urllink article link male read news check picture find photo)` could be about a website that posts news.
+
+# References
+[1] Mukherjee, Arjun and Bing Liu. “Improving Gender Classification of Blog Authors.” EMNLP (2010).
